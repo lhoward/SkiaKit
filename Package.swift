@@ -29,14 +29,14 @@ target = [
 target = [
 	.target (
 		name: "CSkiaSharp",
-		dependencies: ["CSkiaSharpBinary"],
+		dependencies: ["SkiaSharp"],
 		cSettings: [
 		.headerSearchPath("include")
 		]
 	),
 	.binaryTarget (
-		name: "CSkiaSharpBinary",
-		url: "https://github.com/migueldeicaza/SkiaKit/releases/download/1.2.4/SkiaSharp.xcframework.zip",
+		name: "SkiaSharp",
+		url: "https://github.com/migueldeicaza/SkiaKit/releases/download/1.2.5/SkiaSharp.xcframework.zip",
 		checksum: "6aab048910bdd5a24f3321b2476ab6dd5306c1efb5729776d3a780a806b008b1"
 	),
 	.testTarget (
